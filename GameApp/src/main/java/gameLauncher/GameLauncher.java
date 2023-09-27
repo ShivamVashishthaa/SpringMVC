@@ -1,14 +1,14 @@
-package GameLauncher;
+package gameLauncher;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import GameRunner.GameRunner;
+import gameRunner.GameRunner;
 
 @Configuration
-@ComponentScan("com.in28minutes.learnspringframework.game")
-@ComponentScan("com.in28minutes.learnspringframework.GameRunner")
+@ComponentScan("game")
+@ComponentScan("gameRunner")
 public class GameLauncher {
 	
 	public static void main(String[] args) {

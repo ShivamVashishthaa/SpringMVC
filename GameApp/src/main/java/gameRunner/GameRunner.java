@@ -1,4 +1,4 @@
-package GameRunner;
+package gameRunner;
 
 import org.springframework.stereotype.Component;
 
